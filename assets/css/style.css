@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*
+.container{
+  max-width: 1320px;
+  margin: auto;
+  padding: 0 12px;
+}
+*/
+
+/* start header area */
+header {
+  max-width: 1320px;
+  margin: auto;
+}
+header nav {
+  background: #419df4;
+  padding: 0 12px;
+}
+header nav img {
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+header .banner {
+  background: #e8f0ff;
+  padding: 0 12px;
+}
+header .banner .content {
+  max-width: 500px;
+  padding: 60px 0;
+}
+header .banner .content h1 {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+header .banner .content p {
+  color: #343434;
+  margin: 16px 0;
+}
+header .banner .content a {
+  background: #4885ed;
+  border-radius: 46px;
+  padding: 8px 32px;
+  color: white;
+  font-size: 24px;
+  display: inline-block;
+}
+/* end header area */
+
+/* start main area */
+main .info {
+  max-width: 1320px;
+  margin: auto;
+  padding: 66px 12px;
+}
+
+main .info .content {
+  max-width: 928px;
+}
+main .info .content h1 {
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 26px;
+}
+
+/* start cars_area */
+
+main .info .cars_area .card_one,
+main .info .cars_area .card_two,
+main .info .cars_area .card_three,
+main .info .cars_area .card_four {
+  width: 350px;
+  height: 350px;
+  background: #4cca77;
+  color: white;
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 50px 30px;
+}
+main .info .cars_area i {
+  font-size: 52px;
+}
+main .info .cars_area h2 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+main .info .cars_area .card_one {
+  border-radius: 50%;
+  margin: 60px auto;
+}
+main .info .cars_area .card_two {
+  margin-left: auto;
+  border: 10px solid #4885ed;
+  border-radius: 50px 0 50px 0;
+}
+main .info .cars_area .card_three {
+  margin: 60px auto;
+  border: 10px solid #4885ed;
+  outline: 10px solid #dddddd;
+}
+main .info .cars_area .card_four {
+  border: 10px solid #4885ed;
+  border-radius: 50px 0 50px 0;
+}
+
+main .info .profile_area {
+  width: 350px;
+  height: 350px;
+  color: white;
+  background-color: #4885ed;
+  text-align: center;
+  margin: 60px auto 0 auto;
+  padding: 50px 30px;
+}
+main .info .profile_area h2 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+main .info .profile_area img {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  outline: 5px solid white;
+  outline-offset: 5px;
+}
+/* end cars_area */
+
+/* start price area */
+main .price {
+  background-image: url("../images/sebastian-svenson-LpbyDENbQQg-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1320px;
+  margin: auto;
+  padding: 77px 12px;
+}
+main .price .details {
+  max-width: 350px;
+  background-color: #fff;
+  text-align: center;
+  border: 5px solid #4885ed;
+}
+main .price .details h2 {
+  margin: 27px 0;
+}
+main .price .details h3 {
+  background-color: #4885ed;
+  color: #fff;
+  font-size: 32px;
+  padding: 12px 0;
+}
+main .price .details .links {
+  padding: 38px 0;
+  font-size: 16px;
+  background: #e8f0ff;
+}
+main .price .details .links i {
+  color: #4885ed;
+}
+main .price .details .links a {
+  margin: 10px 0;
+  color: #343434;
+  display: block;
+}
+main .price .details .read_more {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 50px;
+  background-color: #4885ed;
+  color: #fff;
+  margin: 27px 0;
+}
+/* end price area */
+
+/* end main area */
+
+/* start footer area */
+footer {
+  max-width: 1320px;
+  margin: auto;
+  background-color: #4885ed;
+  color: white;
+}
+footer a {
+  color: white;
+}
+
+footer .top {
+  padding: 52px 12px;
+  border-bottom: 2px solid white;
+}
+footer .top img {
+  width: 171px;
+  height: 95px;
+}
+footer .top p{
+  margin: 35px 0;
+}
+footer .top .links a{
+  margin: 0 8px;
+}
+footer .top .links a i {
+  font-size: 32px;
+}
+
+footer .bottom {
+  padding: 0 12px;
+}
+footer .bottom p {
+  padding: 32px;
+}
+/* end footer area */
